@@ -1,4 +1,6 @@
 ConcultaDatosApp::Application.routes.draw do
+  resources :grupos
+
   resources :usuarios
 
   # The priority is based upon order of creation:
